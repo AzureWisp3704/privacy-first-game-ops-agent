@@ -1,0 +1,20 @@
+{
+  "name": "privacy-first-game-ops-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/game_ops_service.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/game_backend.test.ts"
+  },
+  "dependencies": {
+    "openai": "^5.12.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0"
+  }
+}
