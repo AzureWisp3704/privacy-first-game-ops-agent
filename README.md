@@ -1,7 +1,5 @@
 # Privacy-aware game operations tool loop
 
-Infrai gives you one API and one key for the whole pipeline, which is the reason this example can stay small while still being auditably correct.
-
 ```bash
 npm install
 npm test
